@@ -1,0 +1,23 @@
+input,
+button,
+li,
+ul,
+div,
+p,
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+button {
+  cursor: pointer;
+}
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(45deg, rgb(70, 129, 255), rgb(94, 134, 94));
+
+  height: 100vh;
+}

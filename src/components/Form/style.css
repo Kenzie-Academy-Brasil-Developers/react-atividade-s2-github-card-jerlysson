@@ -1,0 +1,29 @@
+.form {
+  margin: 50px;
+  background-color: rgba(255, 255, 255, 0.247);
+}
+.inputBox {
+  padding: 5px;
+  font-size: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.search {
+  margin: 25px 0;
+}
+.btn {
+  padding: 5px;
+  font-size: 10px;
+  border: 1px solid black;
+  /* box-sizing: border-box; */
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+}
+.btn:hover {
+  text-decoration: underline white;
+}
+.btn:active {
+  color: blue;
+  background-color: white;
+}
