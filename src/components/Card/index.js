@@ -15,7 +15,7 @@ const Card = ({ repo }) => {
             <h2 className="name">{item.full_name}</h2>
             <p className="desc">{item.description}</p>
           </div>
-          <a className="link" href={item.html_url}>
+          <a className="link" href={item.html_url} target="_blank">
             <BiSend />
           </a>
         </div>
